@@ -43,6 +43,7 @@ board.on("ready", function() {
 
     var motorLeft = new five.Led(3);
     var motorRight = new five.Led(4);
+    var servo = new servo()
 
     motorLeft.off();
     motorRight.off();
